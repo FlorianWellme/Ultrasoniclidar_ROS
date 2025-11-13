@@ -7,10 +7,10 @@ Prerequisites:
 - ROS2 workspace (ros2_ws) containing the arduino_bridge package
 
 Workspace setup:
-cd ~/Documents/ros2_ws
-colcon build
-source /opt/ros/humble/setup.bash
-source install/setup.bash
+# cd ~/Documents/ros2_ws
+# colcon build
+# source /opt/ros/humble/setup.bash
+# source install/setup.bash
 
 Running the project:
 1. Start reading Arduino data (servo + ultrasonic):
