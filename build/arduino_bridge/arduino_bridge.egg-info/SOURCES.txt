@@ -9,8 +9,8 @@ setup.py
 ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt
 ../../build/arduino_bridge/arduino_bridge.egg-info/zip-safe
 arduino_bridge/__init__.py
-arduino_bridge/serial_bridge.py
-arduino_bridge/servo_visualizer.py
+arduino_bridge/sonar_bridge.py
+arduino_bridge/sonar_visualizer.py
 resource/arduino_bridge
 test/test_copyright.py
 test/test_flake8.py

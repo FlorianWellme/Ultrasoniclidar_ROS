@@ -24,8 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-		'serial_bridge = arduino_bridge.serial_bridge:main',
-        'servo_visualizer = arduino_bridge.servo_visualizer:main',
+            'sonar_bridge = arduino_bridge.sonar_bridge:main',
+            'sonar_visualizer = arduino_bridge.sonar_visualizer:main',
         ],
     },
 )

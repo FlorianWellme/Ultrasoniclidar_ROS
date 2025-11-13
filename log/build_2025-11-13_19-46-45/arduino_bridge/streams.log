@@ -1,0 +1,22 @@
+[5.424s] Invoking command in '/home/florian/Documents/ros2_ws/src/arduino_bridge': PYTHONPATH=/home/florian/Documents/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/Documents/ros2_ws/build/arduino_bridge/build install --record /home/florian/Documents/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[6.861s] running egg_info
+[6.864s] writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO
+[6.870s] writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt
+[6.871s] writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt
+[6.872s] writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt
+[6.874s] writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt
+[6.886s] reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[6.895s] writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[6.896s] running build
+[6.896s] running build_py
+[6.901s] running install
+[6.902s] running install_lib
+[6.911s] running install_data
+[6.913s] running install_egg_info
+[6.926s] removing '/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[6.933s] Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info
+[6.943s] running install_scripts
+[7.073s] Installing sonar_bridge script to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/arduino_bridge
+[7.078s] Installing sonar_visualizer script to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/arduino_bridge
+[7.080s] writing list of installed files to '/home/florian/Documents/ros2_ws/build/arduino_bridge/install.log'
+[7.225s] Invoked command in '/home/florian/Documents/ros2_ws/src/arduino_bridge' returned '0': PYTHONPATH=/home/florian/Documents/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/Documents/ros2_ws/build/arduino_bridge/build install --record /home/florian/Documents/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
