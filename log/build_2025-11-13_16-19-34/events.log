@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.002144] (arduino_bridge) JobQueued: {'identifier': 'arduino_bridge', 'dependencies': OrderedDict()}
+[0.002892] (arduino_bridge) JobStarted: {'identifier': 'arduino_bridge'}
+[0.100639] (-) TimerEvent: {}
+[0.201550] (-) TimerEvent: {}
+[0.303379] (-) TimerEvent: {}
+[0.404184] (-) TimerEvent: {}
+[0.505124] (-) TimerEvent: {}
+[0.605981] (-) TimerEvent: {}
+[0.706730] (-) TimerEvent: {}
+[0.807460] (-) TimerEvent: {}
+[0.908168] (-) TimerEvent: {}
+[1.008947] (-) TimerEvent: {}
+[1.109681] (-) TimerEvent: {}
+[1.210399] (-) TimerEvent: {}
+[1.311121] (-) TimerEvent: {}
+[1.411859] (-) TimerEvent: {}
+[1.512905] (-) TimerEvent: {}
+[1.614198] (-) TimerEvent: {}
+[1.715317] (-) TimerEvent: {}
+[1.817460] (-) TimerEvent: {}
+[1.919854] (-) TimerEvent: {}
+[2.021351] (-) TimerEvent: {}
+[2.122456] (-) TimerEvent: {}
+[2.223300] (-) TimerEvent: {}
+[2.324054] (-) TimerEvent: {}
+[2.424835] (-) TimerEvent: {}
+[2.525762] (-) TimerEvent: {}
+[2.627069] (-) TimerEvent: {}
+[2.728836] (-) TimerEvent: {}
+[2.830036] (-) TimerEvent: {}
+[2.930714] (-) TimerEvent: {}
+[3.031422] (-) TimerEvent: {}
+[3.132266] (-) TimerEvent: {}
+[3.233946] (-) TimerEvent: {}
+[3.336080] (-) TimerEvent: {}
+[3.437342] (-) TimerEvent: {}
+[3.538675] (-) TimerEvent: {}
+[3.639514] (-) TimerEvent: {}
+[3.740292] (-) TimerEvent: {}
+[3.841027] (-) TimerEvent: {}
+[3.941837] (-) TimerEvent: {}
+[4.042763] (-) TimerEvent: {}
+[4.143840] (-) TimerEvent: {}
+[4.245293] (-) TimerEvent: {}
+[4.346381] (-) TimerEvent: {}
+[4.447192] (-) TimerEvent: {}
+[4.548198] (-) TimerEvent: {}
+[4.649115] (-) TimerEvent: {}
+[4.749924] (-) TimerEvent: {}
+[4.850803] (-) TimerEvent: {}
+[4.951594] (-) TimerEvent: {}
+[5.052432] (-) TimerEvent: {}
+[5.153513] (-) TimerEvent: {}
+[5.254433] (-) TimerEvent: {}
+[5.355558] (-) TimerEvent: {}
+[5.457338] (-) TimerEvent: {}
+[5.525714] (arduino_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_bridge', 'build', '--build-base', '/home/florian/Documents/ros2_ws/build/arduino_bridge/build', 'install', '--record', '/home/florian/Documents/ros2_ws/build/arduino_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/florian/Documents/ros2_ws/src/arduino_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'florian', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/florian', 'OLDPWD': '/home/florian/Documents', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '1179', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/florian/Documents/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'florian', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'florian', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/florian/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/florian-desktop:@/tmp/.ICE-unix/1156,unix/florian-desktop:/tmp/.ICE-unix/1156', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/4498389d_33d6_4191_858d_454172174681', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.WY12F3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/florian/Documents/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/florian/Documents/ros2_ws/build/arduino_bridge', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/florian/Documents/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[5.561418] (-) TimerEvent: {}
+[5.662427] (-) TimerEvent: {}
+[5.763724] (-) TimerEvent: {}
+[5.864783] (-) TimerEvent: {}
+[5.966874] (-) TimerEvent: {}
+[6.068678] (-) TimerEvent: {}
+[6.171370] (-) TimerEvent: {}
+[6.272494] (-) TimerEvent: {}
+[6.373381] (-) TimerEvent: {}
+[6.474107] (-) TimerEvent: {}
+[6.574961] (-) TimerEvent: {}
+[6.675708] (-) TimerEvent: {}
+[6.776421] (-) TimerEvent: {}
+[6.877145] (-) TimerEvent: {}
+[6.977929] (-) TimerEvent: {}
+[7.078649] (-) TimerEvent: {}
+[7.163442] (arduino_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[7.166449] (arduino_bridge) StdoutLine: {'line': b'writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO\n'}
+[7.172806] (arduino_bridge) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt\n'}
+[7.173936] (arduino_bridge) StdoutLine: {'line': b'writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt\n'}
+[7.174816] (arduino_bridge) StdoutLine: {'line': b'writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt\n'}
+[7.175575] (arduino_bridge) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt\n'}
+[7.178888] (-) TimerEvent: {}
+[7.186272] (arduino_bridge) StdoutLine: {'line': b"reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.195278] (arduino_bridge) StdoutLine: {'line': b"writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.197146] (arduino_bridge) StdoutLine: {'line': b'running build\n'}
+[7.198037] (arduino_bridge) StdoutLine: {'line': b'running build_py\n'}
+[7.198863] (arduino_bridge) StdoutLine: {'line': b'copying arduino_bridge/servo_visualizer.py -> /home/florian/Documents/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.200776] (arduino_bridge) StdoutLine: {'line': b'running install\n'}
+[7.202447] (arduino_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[7.208724] (arduino_bridge) StdoutLine: {'line': b'copying /home/florian/Documents/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge/servo_visualizer.py -> /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.215606] (arduino_bridge) StdoutLine: {'line': b'byte-compiling /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/servo_visualizer.py to servo_visualizer.cpython-310.pyc\n'}
+[7.233337] (arduino_bridge) StdoutLine: {'line': b'running install_data\n'}
+[7.234032] (arduino_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.234572] (arduino_bridge) StdoutLine: {'line': b"removing '/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.235089] (arduino_bridge) StdoutLine: {'line': b'Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info\n'}
+[7.243871] (arduino_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[7.279072] (-) TimerEvent: {}
+[7.327503] (arduino_bridge) StdoutLine: {'line': b'Installing serial_bridge script to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/arduino_bridge\n'}
+[7.328543] (arduino_bridge) StdoutLine: {'line': b'Installing servo_visualizer script to /home/florian/Documents/ros2_ws/install/arduino_bridge/lib/arduino_bridge\n'}
+[7.333760] (arduino_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/florian/Documents/ros2_ws/build/arduino_bridge/install.log'\n"}
+[7.379328] (-) TimerEvent: {}
+[7.469031] (arduino_bridge) CommandEnded: {'returncode': 0}
+[7.480087] (-) TimerEvent: {}
+[7.581039] (-) TimerEvent: {}
+[7.682243] (-) TimerEvent: {}
+[7.690579] (arduino_bridge) JobEnded: {'identifier': 'arduino_bridge', 'rc': 0}
+[7.695510] (-) EventReactorShutdown: {}

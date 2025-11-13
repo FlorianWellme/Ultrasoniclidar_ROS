@@ -1,0 +1,24 @@
+[4.121s] Invoking command in '/home/florian/ros2_ws/src/arduino_bridge': PYTHONPATH=/home/florian/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/ros2_ws/build/arduino_bridge/build install --record /home/florian/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[5.441s] running egg_info
+[5.444s] writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO
+[5.449s] writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt
+[5.451s] writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt
+[5.452s] writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt
+[5.454s] writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt
+[5.465s] reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[5.471s] writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[5.472s] running build
+[5.474s] running build_py
+[5.474s] copying arduino_bridge/serial_bridge.py -> /home/florian/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge
+[5.477s] running install
+[5.479s] running install_lib
+[5.488s] copying /home/florian/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge/serial_bridge.py -> /home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge
+[5.491s] byte-compiling /home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/serial_bridge.py to serial_bridge.cpython-310.pyc
+[5.497s] running install_data
+[5.498s] running install_egg_info
+[5.507s] removing '/home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[5.509s] Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info
+[5.516s] running install_scripts
+[5.604s] Installing serial_bridge script to /home/florian/ros2_ws/install/arduino_bridge/lib/arduino_bridge
+[5.606s] writing list of installed files to '/home/florian/ros2_ws/build/arduino_bridge/install.log'
+[5.736s] Invoked command in '/home/florian/ros2_ws/src/arduino_bridge' returned '0': PYTHONPATH=/home/florian/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/ros2_ws/build/arduino_bridge/build install --record /home/florian/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
