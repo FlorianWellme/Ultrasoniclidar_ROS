@@ -1,0 +1,154 @@
+[1.905s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.906s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff99096ef0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9922be80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9922be80>>, mixin_verb=('build',))
+[4.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.073s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.073s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/florian/Documents/ros2_ws'
+[4.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.076s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.077s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ignore_ament_install'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_pkg']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_pkg'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['colcon_meta']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'colcon_meta'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['ros']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'ros'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['cmake', 'python']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'cmake'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extensions ['python_setup_py']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(arduino) by extension 'python_setup_py'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'ignore'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'ignore_ament_install'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['colcon_pkg']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'colcon_pkg'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['colcon_meta']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'colcon_meta'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['ros']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'ros'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['cmake', 'python']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'cmake'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'python'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extensions ['python_setup_py']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(arduino/servo_scan) by extension 'python_setup_py'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.169s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.170s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.173s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extension 'ignore'
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extension 'ignore_ament_install'
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extensions ['colcon_pkg']
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extension 'colcon_pkg'
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extensions ['colcon_meta']
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extension 'colcon_meta'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extensions ['ros']
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduino_bridge) by extension 'ros'
+[4.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduino_bridge' with type 'ros.ament_python' and name 'arduino_bridge'
+[4.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.480s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.507s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[4.515s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.026s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_args' from command line to 'None'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_target' from command line to 'None'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[5.027s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[5.028s] Level 5:colcon.colcon_core.verb:set package 'arduino_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.028s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/florian/Documents/ros2_ws/build/arduino_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/florian/Documents/ros2_ws/install/arduino_bridge', 'merge_install': False, 'path': '/home/florian/Documents/ros2_ws/src/arduino_bridge', 'symlink_install': False, 'test_result_base': None}
+[5.028s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.033s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/florian/Documents/ros2_ws/src/arduino_bridge' with build type 'ament_python'
+[5.033s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_bridge', 'ament_prefix_path')
+[5.061s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/ament_prefix_path.ps1'
+[5.069s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/ament_prefix_path.dsv'
+[5.075s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/ament_prefix_path.sh'
+[5.079s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.080s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.990s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/florian/Documents/ros2_ws/src/arduino_bridge'
+[6.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.994s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.575s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/florian/Documents/ros2_ws/src/arduino_bridge': PYTHONPATH=/home/florian/Documents/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/Documents/ros2_ws/build/arduino_bridge/build install --record /home/florian/Documents/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[11.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/florian/Documents/ros2_ws/src/arduino_bridge' returned '0': PYTHONPATH=/home/florian/Documents/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/florian/Documents/ros2_ws/build/arduino_bridge/build install --record /home/florian/Documents/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[11.157s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge' for CMake module files
+[11.161s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge' for CMake config files
+[11.166s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge/lib'
+[11.167s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge/bin'
+[11.168s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/pkgconfig/arduino_bridge.pc'
+[11.169s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages'
+[11.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_bridge', 'pythonpath')
+[11.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/pythonpath.ps1'
+[11.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/pythonpath.dsv'
+[11.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/hook/pythonpath.sh'
+[11.178s] Level 1:colcon.colcon_core.environment:checking '/home/florian/Documents/ros2_ws/install/arduino_bridge/bin'
+[11.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_bridge)
+[11.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/package.ps1'
+[11.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/package.dsv'
+[11.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/package.sh'
+[11.193s] INFO:colcon.colcon_core.shell:Creating package script '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/package.bash'
+[11.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/florian/Documents/ros2_ws/install/arduino_bridge/share/arduino_bridge/package.zsh'
+[11.205s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/florian/Documents/ros2_ws/install/arduino_bridge/share/colcon-core/packages/arduino_bridge)
+[11.206s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.209s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.256s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.256s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.457s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/florian/Documents/ros2_ws/install/local_setup.ps1'
+[11.470s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/florian/Documents/ros2_ws/install/_local_setup_util_ps1.py'
+[11.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/florian/Documents/ros2_ws/install/setup.ps1'
+[11.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/florian/Documents/ros2_ws/install/local_setup.sh'
+[11.496s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/florian/Documents/ros2_ws/install/_local_setup_util_sh.py'
+[11.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/florian/Documents/ros2_ws/install/setup.sh'
+[11.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/florian/Documents/ros2_ws/install/local_setup.bash'
+[11.515s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/florian/Documents/ros2_ws/install/setup.bash'
+[11.522s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/florian/Documents/ros2_ws/install/local_setup.zsh'
+[11.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/florian/Documents/ros2_ws/install/setup.zsh'
