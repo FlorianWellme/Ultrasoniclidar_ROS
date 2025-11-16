@@ -40,8 +40,13 @@ class SonarVisualizer(Node):
 
 
     def update_visualization(self):
+        # Reset si on revient à 0°
+        if abs(self.angle) <= 6.0:  
+            self.points = []
+
         self.publish_arrow()
         self.publish_points()
+
 
 
     # ---------- ARROW ----------
